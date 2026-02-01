@@ -1,0 +1,5 @@
+1-> remove next icon from bottom left corner of screen.
+
+2->Remove starting at $1000 section from Hero section.
+
+3->enable the functioning of download resume button my resume is "Harshit_resume.pdf"

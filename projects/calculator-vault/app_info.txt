@@ -1,0 +1,153 @@
+{
+  // Basic Info
+  id: "11",
+  slug: "vault-privacy-utility-app-coming-soon",
+  name: "Vault Privacy Utility",
+  tagline: "A secure vault app combining utility and privacy protection",
+  category: "utility_app",
+  year: 2025,
+  featured: false,
+
+  // Visual Assets (add your designs/screens)
+  icon: "icon.png",
+  heroImage: "hero.png",
+  screenshots: [img1.png, img2.png, img3.png, img4.png, img5.png],
+
+  // Technical Info
+  techStack: [
+    "Kotlin",
+    "Jetpack Compose",
+    "Room Database",
+    "Biometric Authentication",
+    "MVVM Architecture",
+    "Firebase Realtime Database (optional sync)",
+    "Coroutines",
+    "Encryption Libraries",
+    "OneSignal (Notifications)"
+  ],
+  duration: "2.3 months",
+  teamSize: "Solo",
+  role: "Android Developer (End-to-End)",
+  clientName: "",
+  playStoreLink: "",
+
+  // Challenge
+  challenge: {
+    overview:
+      "Users increasingly demand secure ways to hide sensitive files, photos, and personal data. Many existing vault apps suffer from confusing interfaces, weak encryption, or intrusive ads. This project strives to build a clean, intuitive, and privacy-centric vault application that makes storing and retrieving private content both safe and simple.",
+    points: [
+      "Ensuring strong encryption and secure storage for photos and sensitive files",
+      "Implementing biometric and password-based authentication layers",
+      "Designing a seamless user experience with minimal UI friction",
+      "Balancing privacy with utility features like photo view, file manager, and quick access",
+      "Delivering a responsive app that feels fluid even on low-end devices"
+    ]
+  },
+
+  // Solution
+  solution: {
+    overview:
+      "The Vault Privacy Utility app provides a secure environment for users to protect sensitive files and photos behind encrypted storage combined with biometric or password protection. Built with Kotlin and Jetpack Compose, the app balances a sleek UX with enterprise-ready security foundations, making privacy accessible to everyday users.",
+    features: [
+      {
+        title: "Encrypted Storage",
+        description:
+          "Files and media are stored locally with strong encryption, isolating them from regular file explorers."
+      },
+      {
+        title: "Biometric + Password Lock",
+        description:
+          "Users can unlock private content using fingerprint, face ID (when available), or custom PIN/password."
+      },
+      {
+        title: "Secure Photo Viewer",
+        description:
+          "Integrated image viewer that loads protected photos without exposing them to the system gallery."
+      },
+      {
+        title: "File Manager & Organization",
+        description:
+          "Sorting, folders, and tagging help users organize private content efficiently."
+      },
+      {
+        title: "Optional Cloud Backup (Future)",
+        description:
+          "Future-ready design for encrypted backup & sync (optional, secure) using Firebase."
+      }
+    ]
+  },
+
+  // Development Process
+  process: [
+    {
+      phase: "Product Design & Market Research",
+      description:
+        "Studied common issues in existing vault apps — weak encryption, privacy leaks, confusing UI — and defined a better user experience.",
+      duration: "1 week"
+    },
+    {
+      phase: "UI / UX & Architecture",
+      description:
+        "Created smooth screens with Jetpack Compose and designed an MVVM architecture that isolates encryption logic safely.",
+      duration: "1.2 weeks"
+    },
+    {
+      phase: "Core Feature Implementation",
+      description:
+        "Developed secure file storage, biometric locking, encrypted galleries, and file management workflows.",
+      duration: "3.5 weeks"
+    },
+    {
+      phase: "Security Hardening & Testing",
+      description:
+        "Tested encryption integrity, authentication flows, and edge cases like unauthorized access attempts.",
+      duration: "1.4 weeks"
+    }
+  ],
+
+  // Technical Details
+  techDetails: [
+    {
+      category: "Languages",
+      items: ["Kotlin"]
+    },
+    {
+      category: "UI",
+      items: ["Jetpack Compose"]
+    },
+    {
+      category: "Architecture",
+      items: ["MVVM", "Coroutines", "Room", "Encryption"]
+    },
+    {
+      category: "Authentication",
+      items: ["Biometric Prompt API", "PIN / Password Safety"]
+    },
+    {
+      category: "Storage & Sync",
+      items: ["Encrypted Local Storage", "Firebase (planned)"]
+    }
+  ],
+
+  // Results & Metrics
+  results: [
+    {
+      metric: "Security First",
+      value: "Strong Encryption",
+      description:
+        "Everything stored is protected using vetted encryption schemas, ensuring sensitive user data remains private."
+    },
+    {
+      metric: "UX Simplicity",
+      value: "High",
+      description:
+        "Users enjoy a straightforward flow with minimal steps to lock and unlock content."
+    },
+    {
+      metric: "Performance",
+      value: "Optimized",
+      description:
+        "Built to perform well even on devices with limited hardware resources."
+    }
+  ]
+}

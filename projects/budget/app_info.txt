@@ -1,0 +1,148 @@
+{
+  // Basic Info
+  id: "9",
+  slug: "smart-budget-manager-personal-finance-app",
+  name: "Smart Budget Manager",
+  tagline: "A simple, no-frills personal finance & budget tracking app",
+  category: "financial_app",
+  year: 2025,
+  featured: false,
+
+  // Visual Assets (add your images)
+  icon: "icon.png",
+  heroImage: "hero.png",
+  screenshots: [img1.png, img2.png, img3.png, img4.png, img5.png],
+
+  // Technical Info
+  techStack: [
+    "Kotlin",
+    "Jetpack Compose",
+    "Room Database",
+    "Coroutines",
+    "MVVM Architecture",
+    "Firebase Authentication (optional)",
+    "Charts & Graph Library",
+    "REST APIs (for sync/features)"
+  ],
+  duration: "1.8 months",
+  teamSize: "Solo",
+  role: "Android Developer (End-to-End)",
+  clientName: "",
+  playStoreLink: "https://play.google.com/store/apps/details?id=com.monify.smart.budget",
+
+  // Challenge
+  challenge: {
+    overview:
+      "Users often struggle to track their daily financial transactions and maintain a consistent budget due to complex or bank-linked apps that overwhelm beginners. Smart Budget Manager was built to simplify personal budget management with an easy, intuitive flow and minimal setup required.",
+    points: [
+      "Designing an intuitive flow that makes expense logging effortless and quick",
+      "Building efficient data storage to handle offline and real-time interactions",
+      "Creating clear visual insights (charts/graphs) to show spending patterns",
+      "Balancing simplicity and usefulness for both beginners and intermediate users",
+      "Structuring the app to work smoothly even on low-end devices with minimal lag"
+    ]
+  },
+
+  // Solution
+  solution: {
+    overview:
+      "Smart Budget Manager focuses on simplicity and utility — users can log incomes and expenses, set budgets, and see visual summaries of their financial data via clean charts. The app empowers users to make better financial decisions without forcing bank sync or login friction.",
+    features: [
+      {
+        title: "Instant Expense & Income Logging",
+        description:
+          "Users can add a transaction with just a few taps, choosing categories, dates, and optional notes."
+      },
+      {
+        title: "Budget Creation & Alerts",
+        description:
+          "Set monthly budgets for categories (e.g., Food, Transport, Bills), with alerts when thresholds are reached."
+      },
+      {
+        title: "Visual Spending Insights",
+        description:
+          "Interactive pie charts and bar graphs give users quick clarity on where their money is going."
+      },
+      {
+        title: "Custom Categories",
+        description:
+          "Users can customize spending categories to match their lifestyle needs."
+      },
+      {
+        title: "Offline First Experience",
+        description:
+          "All data is stored locally using Room so the app remains fast and usable without internet connectivity."
+      }
+    ]
+  },
+
+  // Development Process
+  process: [
+    {
+      phase: "Discovery & Planning",
+      description:
+        "Researched user pain points with existing budgeting tools and identified the need for a simple, approachable finance app.",
+      duration: "1 week"
+    },
+    {
+      phase: "UI/UX & Architecture",
+      description:
+        "Designed a minimal UI in Jetpack Compose and planned an MVVM structure with Room database for persistence.",
+      duration: "1 week"
+    },
+    {
+      phase: "Core Development",
+      description:
+        "Built core features: transactions, budgets, visual summaries, and category management.",
+      duration: "3 weeks"
+    },
+    {
+      phase: "Optimizations & Testing",
+      description:
+        "Focused on UI smoothness, data integrity, offline performance, and visual accuracy of charts.",
+      duration: "1 week"
+    }
+  ],
+
+  // Technical Details
+  techDetails: [
+    {
+      category: "Languages",
+      items: ["Kotlin"]
+    },
+    {
+      category: "UI",
+      items: ["Jetpack Compose"]
+    },
+    {
+      category: "Architecture",
+      items: ["MVVM", "Room Database", "Coroutines"]
+    },
+    {
+      category: "Charts & Visualization",
+      items: ["Compose Charts Library (e.g., MPAndroidChart/Compose Chart)"]
+    }
+  ],
+
+  // Results & Metrics
+  results: [
+    {
+      metric: "Install Range",
+      value: "5K–10K+ (estimated)",
+      description:
+        "Reached early users in a niche segment seeking simple budget tracking without bank sync."
+    },
+    {
+      metric: "User Retention",
+      value: "Steady Daily Activity",
+      description:
+        "Users reported consistent daily use due to ease of entry and clear insights."
+    },
+    {
+      metric: "Performance",
+      value: "Smooth & Responsive",
+      description:
+        "Optimized UI delivers fluid interaction even on entry-level devices."
+    }
+  ]
+}

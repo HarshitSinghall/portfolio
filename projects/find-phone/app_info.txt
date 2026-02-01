@@ -1,0 +1,153 @@
+{
+  // Basic Info
+  id: "10",
+  slug: "utrackme-location-tracker-travel-log",
+  name: "UTrackMe",
+  tagline: "Your go-to companion for smart location tracking & travel logging",
+  category: "location_services",
+  year: 2025,
+  featured: false,
+
+  // Visual Assets (add your images)
+  icon: "icon.png",
+  heroImage: "hero.png",
+  screenshots: [img1.png,img2.png,img3.png,img4.png,img5.png,img6.png],
+
+  // Technical Info
+  techStack: [
+    "Kotlin",
+    "Jetpack Compose",
+    "Google Maps SDK",
+    "FusedLocationProvider API",
+    "Firebase Realtime Database",
+    "Firebase Authentication",
+    "MVVM Architecture",
+    "Coroutines",
+    "REST APIs"
+  ],
+  duration: "2.2 months",
+  teamSize: "Solo",
+  role: "Android Developer (End-to-End)",
+  clientName: "",
+  playStoreLink: "https://play.google.com/store/apps/details?id=com.oussx.utrackme&hl=en_IN",
+
+  // Challenge
+  challenge: {
+    overview:
+      "Users increasingly need simple tools to track their movements, visualize routes, and log travel history without complex fitness or social app clutter. UTrackMe was developed to give users a lightweight, privacy-aware solution for real-time location tracking, route visualization, and history recording — all while preserving battery life and responding smoothly to varying GPS conditions.",
+    points: [
+      "Achieving accurate GPS tracking in varying environments (urban canyons, indoors)",
+      "Balancing location update frequency with battery efficiency",
+      "Rendering routes and markers smoothly on Google Maps",
+      "Organizing travel logs for easy future reference",
+      "Ensuring privacy and security for sensitive location data"
+    ]
+  },
+
+  // Solution
+  solution: {
+    overview:
+      "UTrackMe provides a clear, map-centric UX that tracks user routes, visualizes travel paths, logs history entries, and supports sharing and exporting. Using modern Android tools like Kotlin, Jetpack Compose, and the FusedLocationProvider API, the app delivers reliable location tracking with minimal battery impact.",
+    features: [
+      {
+        title: "Real-Time Location Tracking",
+        description:
+          "Continuously updates the user’s position with efficient GPS polling and smart battery management."
+      },
+      {
+        title: "Interactive Route Mapping",
+        description:
+          "Google Maps-powered route paths and markers with smooth zoom/pan experiences."
+      },
+      {
+        title: "Travel Log History",
+        description:
+          "Users can revisit past routes, timestamped with dates and locations for easy review."
+      },
+      {
+        title: "Export & Sharing",
+        description:
+          "Export route data for sharing with friends or saving offline (CSV/KML formats)."
+      },
+      {
+        title: "Privacy & Controls",
+        description:
+          "Users decide when tracking starts/stops and what data they want to store."
+      }
+    ]
+  },
+
+  // Development Process
+  process: [
+    {
+      phase: "Discovery & Requirement Gathering",
+      description:
+        "Identified core pain points around travel tracking: accuracy, battery efficiency, and ease of use.",
+      duration: "1 week"
+    },
+    {
+      phase: "Architecture Design & Maps Integration",
+      description:
+        "Designed a scalable MVVM architecture and integrated Google Maps with location services.",
+      duration: "1 week"
+    },
+    {
+      phase: "Core Feature Development",
+      description:
+        "Implemented real-time tracking, route drawing, history logging, and export/sharing capabilities.",
+      duration: "4 weeks"
+    },
+    {
+      phase: "Testing & Optimizations",
+      description:
+        "Stress-tested GPS tracking under different conditions and optimized performance.",
+      duration: "1.2 weeks"
+    }
+  ],
+
+  // Technical Details
+  techDetails: [
+    {
+      category: "Languages",
+      items: ["Kotlin"]
+    },
+    {
+      category: "UI",
+      items: ["Jetpack Compose"]
+    },
+    {
+      category: "Maps & Location",
+      items: ["Google Maps SDK", "FusedLocationProvider"]
+    },
+    {
+      category: "Backend & Sync",
+      items: ["Firebase Realtime Database", "Firebase Authentication"]
+    },
+    {
+      category: "Architecture",
+      items: ["MVVM", "Coroutines"]
+    }
+  ],
+
+  // Results & Metrics
+  results: [
+    {
+      metric: "Precision",
+      value: "High",
+      description:
+        "Achieved reliable route tracking with minimal GPS drift under typical travel conditions."
+    },
+    {
+      metric: "Battery Efficiency",
+      value: "Optimized",
+      description:
+        "Smart polling reduced power usage compared to constant GPS requests."
+    },
+    {
+      metric: "UX Satisfaction",
+      value: "Intuitive & Lightweight",
+      description:
+        "Users appreciated the clean interface and privacy-first approach."
+    }
+  ]
+}

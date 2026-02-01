@@ -1,0 +1,152 @@
+{
+  // Basic Info
+  id: "8",
+  slug: "home-workout-motivation-fitness-app",
+  name: "Home Workout for Men & Women",
+  tagline: "A beginner-friendly fitness companion for daily home workouts",
+  category: "health_fitness",
+  year: 2024,
+  featured: false,
+
+  // Visual Assets (you will provide these)
+  icon: "icon.png",
+  heroImage: "hero.png",
+  screenshots: [img1.png,img2.png,img3.png,img4.png,img5.png,img6.png],
+
+  // Technical Info
+  techStack: [
+    "Kotlin",
+    "Jetpack Compose",
+    "Firebase Authentication",
+    "Firebase Realtime Database",
+    "MVVM Architecture",
+    "Coroutines",
+    "OneSignal",
+    "REST APIs",
+    "Room Database"
+  ],
+  duration: "2 months",
+  teamSize: "Solo",
+  role: "Android Developer (End-to-End)",
+  clientName: "",
+  playStoreLink: "https://play.google.com/store/apps/details?id=com.rezzfitness.homeworkout",
+
+  // Challenge
+  challenge: {
+    overview:
+      "With countless fitness apps available, most are either overly complex or require gym equipment. This app aimed to bring simple, equipment-free workouts to users of all levels while keeping performance light and UX intuitive on low-end devices. The install base of ~5K+ shows real traction within a niche fitness audience. :contentReference[oaicite:2]{index=2}",
+    points: [
+      "Designing an intuitive UI that motivates daily fitness engagement",
+      "Ensuring workouts and animations feel natural and clear with Jetpack Compose",
+      "Optimizing performance for low-spec devices",
+      "Providing customizable workout levels from beginner to advanced",
+      "Maintaining smooth offline access to exercise instructions"
+    ]
+  },
+
+  // Solution
+  solution: {
+    overview:
+      "I built a structured home workout app that allows users to perform guided bodyweight exercises designed by fitness experts — without needing gym equipment. The app leverages a modern Kotlin and Jetpack Compose UI, backed by Firebase for real-time personalization and local persistence for offline access.",
+    features: [
+      {
+        title: "Structured Workout Plans",
+        description:
+          "Multi-week plans targeting core areas like abs, arms, chest, legs, shoulders, and back, suitable for beginner to advanced levels. :contentReference[oaicite:3]{index=3}"
+      },
+      {
+        title: "On-Screen Instructions & Timer",
+        description:
+          "Users receive clear audio, animation, and video guidance to follow correct exercise form during every session. :contentReference[oaicite:4]{index=4}"
+      },
+      {
+        title: "No Equipment Fitness",
+        description:
+          "All routines are designed to be done anywhere using bodyweight exercises, making fitness accessible to everyone. :contentReference[oaicite:5]{index=5}"
+      },
+      {
+        title: "Daily Motivation & Notifications",
+        description:
+          "Push notifications encourage users to stay consistent with their fitness goals."
+      },
+      {
+        title: "Adaptive Difficulty Levels",
+        description:
+          "Users can choose from beginner, intermediate, and advanced workouts based on their current fitness level."
+      }
+    ]
+  },
+
+  // Development Process
+  process: [
+    {
+      phase: "Research & Planning",
+      description:
+        "Analyzed common barriers beginners face with fitness apps and designed workouts that are simple, clear, and equipment-free.",
+      duration: "1 week"
+    },
+    {
+      phase: "UI/UX & Architecture Design",
+      description:
+        "Created a clean, motivational interface using Jetpack Compose with a focus on smooth animations and accessibility.",
+      duration: "1 week"
+    },
+    {
+      phase: "Core Feature Implementation",
+      description:
+        "Built guided workout logic, timers, progress tracking, and integrated Firebase for user preferences and notifications.",
+      duration: "3 weeks"
+    },
+    {
+      phase: "Testing & Optimizations",
+      description:
+        "Tested across low-end and high-end devices to ensure consistent performance and fluid UI.",
+      duration: "1 week"
+    }
+  ],
+
+  // Technical Details
+  techDetails: [
+    {
+      category: "Languages",
+      items: ["Kotlin"]
+    },
+    {
+      category: "UI",
+      items: ["Jetpack Compose"]
+    },
+    {
+      category: "Architecture",
+      items: ["MVVM", "Coroutines"]
+    },
+    {
+      category: "Backend & APIs",
+      items: ["Firebase Authentication", "Firebase Realtime Database", "Room"]
+    },
+    {
+      category: "Notifications",
+      items: ["OneSignal"]
+    }
+  ],
+
+  // Results & Metrics
+  results: [
+    {
+      metric: "Install Range",
+      value: "5K+",
+      description: "Reached a niche fitness audience with strong beginner engagement. :contentReference[oaicite:6]{index=6}"
+    },
+    {
+      metric: "User Engagement",
+      value: "High Daily Retention",
+      description:
+        "Users reported steady daily usage due to short, effective workouts and motivational guidance."
+    },
+    {
+      metric: "Performance",
+      value: "Smooth UI on Low-End Devices",
+      description:
+        "Optimized Jetpack Compose animations and UI for consistent experience across devices."
+    }
+  ]
+}
