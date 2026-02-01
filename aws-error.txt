@@ -1,0 +1,144 @@
+36
+
+2026-02-01T18:16:50.818Z [INFO]: added 124 packages, and audited 125 packages in 18s
+
+37
+
+2026-02-01T18:16:50.824Z [INFO]: 31 packages are looking for funding
+
+38
+
+                                 run `npm fund` for details
+
+39
+
+                                 found 0 vulnerabilities
+
+40
+
+2026-02-01T18:16:50.835Z [INFO]: # Completed phase: preBuild
+
+41
+
+                                 # Starting phase: build
+
+42
+
+2026-02-01T18:16:50.836Z [INFO]: # Executing command: npm run build
+
+43
+
+2026-02-01T18:16:50.992Z [INFO]: > portfolio@1.0.0 build
+
+44
+
+                                 > next build
+
+45
+
+2026-02-01T18:16:51.668Z [INFO]: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+
+46
+
+2026-02-01T18:16:51.674Z [INFO]: Attention: Next.js now collects completely anonymous telemetry regarding usage.
+
+47
+
+2026-02-01T18:16:51.674Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
+
+48
+
+                                 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+
+49
+
+                                 https://nextjs.org/telemetry
+
+50
+
+2026-02-01T18:16:51.687Z [INFO]: ▲ Next.js 16.1.5 (Turbopack)
+
+51
+
+2026-02-01T18:16:51.687Z [INFO]: 
+
+52
+
+2026-02-01T18:16:51.772Z [INFO]: Creating an optimized production build ...
+
+53
+
+2026-02-01T18:17:00.571Z [INFO]: ✓ Compiled successfully in 8.5s
+
+54
+
+2026-02-01T18:17:00.581Z [INFO]: Running TypeScript ...
+
+55
+
+2026-02-01T18:17:05.321Z [WARNING]: Failed to compile.
+
+56
+
+2026-02-01T18:17:05.326Z [WARNING]: ./components/layout/SmoothScroll.tsx:15:7
+
+57
+
+                                    Type error: Object literal may only specify known properties, and 'smooth' does not exist in type 'LenisOptions'.
+
+58
+
+                                    [0m [90m 13 |[39m       duration[33m:[39m [35m1.2[39m[33m,[39m
+
+59
+
+                                    [90m 14 |[39m       easing[33m:[39m (t) [33m=>[39m [33mMath[39m[33m.[39mmin([35m1[39m[33m,[39m [35m1.001[39m [33m-[39m [33mMath[39m[33m.[39mpow([35m2[39m[33m,[39m [33m-[39m[35m10[39m [33m*[39m t))[33m,[39m
+
+60
+
+                                    [31m[1m>[22m[39m[90m 15 |[39m       smooth[33m:[39m [36mtrue[39m[33m,[39m
+
+61
+
+                                    [90m    |[39m       [31m[1m^[22m[39m
+
+62
+
+                                    [90m 16 |[39m     })[33m;[39m
+
+63
+
+                                    [90m 17 |[39m
+
+64
+
+                                    [90m 18 |[39m     [36mfunction[39m raf(time[33m:[39m number) {[0m
+
+65
+
+2026-02-01T18:17:05.353Z [WARNING]: Next.js build worker exited with code: 1 and signal: null
+
+66
+
+2026-02-01T18:17:05.407Z [ERROR]: !!! Build failed
+
+67
+
+2026-02-01T18:17:05.407Z [INFO]: Please read more about Amplify Hosting's support for SSR frameworks to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/amplify-ssr-framework-support.html. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+
+68
+
+2026-02-01T18:17:05.407Z [ERROR]: !!! Error: Command failed with exit code 1
+
+69
+
+2026-02-01T18:17:05.407Z [INFO]: # Starting environment caching...
+
+70
+
+2026-02-01T18:17:05.407Z [INFO]: # Environment caching completed
+
+71
+
+72
+
