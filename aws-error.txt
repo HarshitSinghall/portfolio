@@ -1,50 +1,6 @@
-36
-
-2026-02-01T18:16:50.818Z [INFO]: added 124 packages, and audited 125 packages in 18s
-
-37
-
-2026-02-01T18:16:50.824Z [INFO]: 31 packages are looking for funding
-
-38
-
-                                 run `npm fund` for details
-
-39
-
-                                 found 0 vulnerabilities
-
-40
-
-2026-02-01T18:16:50.835Z [INFO]: # Completed phase: preBuild
-
-41
-
-                                 # Starting phase: build
-
-42
-
-2026-02-01T18:16:50.836Z [INFO]: # Executing command: npm run build
-
-43
-
-2026-02-01T18:16:50.992Z [INFO]: > portfolio@1.0.0 build
-
-44
-
-                                 > next build
-
-45
-
-2026-02-01T18:16:51.668Z [INFO]: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
-
-46
-
-2026-02-01T18:16:51.674Z [INFO]: Attention: Next.js now collects completely anonymous telemetry regarding usage.
-
 47
 
-2026-02-01T18:16:51.674Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
+2026-02-01T18:24:48.552Z [INFO]: This information is used to shape Next.js' roadmap and prioritize features.
 
 48
 
@@ -56,89 +12,139 @@
 
 50
 
-2026-02-01T18:16:51.687Z [INFO]: ▲ Next.js 16.1.5 (Turbopack)
+2026-02-01T18:24:48.564Z [INFO]: ▲ Next.js 16.1.5 (Turbopack)
 
 51
 
-2026-02-01T18:16:51.687Z [INFO]: 
+2026-02-01T18:24:48.564Z [INFO]: 
 
 52
 
-2026-02-01T18:16:51.772Z [INFO]: Creating an optimized production build ...
+2026-02-01T18:24:48.645Z [INFO]: Creating an optimized production build ...
 
 53
 
-2026-02-01T18:17:00.571Z [INFO]: ✓ Compiled successfully in 8.5s
+2026-02-01T18:24:56.840Z [INFO]: ✓ Compiled successfully in 7.9s
 
 54
 
-2026-02-01T18:17:00.581Z [INFO]: Running TypeScript ...
+2026-02-01T18:24:56.846Z [INFO]: Running TypeScript ...
 
 55
 
-2026-02-01T18:17:05.321Z [WARNING]: Failed to compile.
+2026-02-01T18:25:01.439Z [WARNING]: Failed to compile.
 
 56
 
-2026-02-01T18:17:05.326Z [WARNING]: ./components/layout/SmoothScroll.tsx:15:7
+2026-02-01T18:25:01.444Z [WARNING]: ./components/ui/AnimatedText.tsx:78:13
 
 57
 
-                                    Type error: Object literal may only specify known properties, and 'smooth' does not exist in type 'LenisOptions'.
+                                    Type error: Type '{ hidden: { opacity: number; y: number; rotateX: number; }; visible: { opacity: number; y: number; rotateX: number; transition: { duration: number; ease: number[]; }; }; }' is not assignable to type 'Variants'.
 
 58
 
-                                    [0m [90m 13 |[39m       duration[33m:[39m [35m1.2[39m[33m,[39m
+                                    Property 'visible' is incompatible with index signature.
 
 59
 
-                                    [90m 14 |[39m       easing[33m:[39m (t) [33m=>[39m [33mMath[39m[33m.[39mmin([35m1[39m[33m,[39m [35m1.001[39m [33m-[39m [33mMath[39m[33m.[39mpow([35m2[39m[33m,[39m [33m-[39m[35m10[39m [33m*[39m t))[33m,[39m
+                                    Type '{ opacity: number; y: number; rotateX: number; transition: { duration: number; ease: number[]; }; }' is not assignable to type 'Variant'.
 
 60
 
-                                    [31m[1m>[22m[39m[90m 15 |[39m       smooth[33m:[39m [36mtrue[39m[33m,[39m
+                                    Type '{ opacity: number; y: number; rotateX: number; transition: { duration: number; ease: number[]; }; }' is not assignable to type 'TargetAndTransition'.
 
 61
 
-                                    [90m    |[39m       [31m[1m^[22m[39m
+                                    Type '{ opacity: number; y: number; rotateX: number; transition: { duration: number; ease: number[]; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
 
 62
 
-                                    [90m 16 |[39m     })[33m;[39m
+                                    Types of property 'transition' are incompatible.
 
 63
 
-                                    [90m 17 |[39m
+                                    Type '{ duration: number; ease: number[]; }' is not assignable to type 'Transition<any> | undefined'.
 
 64
 
-                                    [90m 18 |[39m     [36mfunction[39m raf(time[33m:[39m number) {[0m
+                                    Type '{ duration: number; ease: number[]; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
 
 65
 
-2026-02-01T18:17:05.353Z [WARNING]: Next.js build worker exited with code: 1 and signal: null
+                                    Type '{ duration: number; ease: number[]; }' is not assignable to type 'ValueAnimationTransition<any>'.
 
 66
 
-2026-02-01T18:17:05.407Z [ERROR]: !!! Build failed
+                                    Types of property 'ease' are incompatible.
 
 67
 
-2026-02-01T18:17:05.407Z [INFO]: Please read more about Amplify Hosting's support for SSR frameworks to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/amplify-ssr-framework-support.html. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+                                    Type 'number[]' is not assignable to type 'Easing | Easing[] | undefined'.
 
 68
 
-2026-02-01T18:17:05.407Z [ERROR]: !!! Error: Command failed with exit code 1
+                                    Type 'number[]' is not assignable to type 'EasingFunction | Easing[]'.
 
 69
 
-2026-02-01T18:17:05.407Z [INFO]: # Starting environment caching...
+                                    Type 'number[]' is not assignable to type 'Easing[]'.
 
 70
 
-2026-02-01T18:17:05.407Z [INFO]: # Environment caching completed
+                                    Type 'number' is not assignable to type 'Easing'.
 
 71
 
+                                    [0m [90m 76 |[39m           [33m<[39m[33mmotion[39m[33m.[39mspan
+
 72
+
+                                    [90m 77 |[39m             key[33m=[39m{index}
+
+73
+
+                                    [31m[1m>[22m[39m[90m 78 |[39m             variants[33m=[39m{child}
+
+74
+
+                                    [90m    |[39m             [31m[1m^[22m[39m
+
+75
+
+                                    [90m 79 |[39m             className[33m=[39m{[32m`inline-block ${isHighlighted ? highlightClassName : ''}`[39m}
+
+76
+
+                                    [90m 80 |[39m             style[33m=[39m{{ transformOrigin[33m:[39m [32m'bottom'[39m }}
+
+77
+
+                                    [90m 81 |[39m           [33m>[39m[0m
+
+78
+
+2026-02-01T18:25:01.472Z [WARNING]: Next.js build worker exited with code: 1 and signal: null
+
+79
+
+2026-02-01T18:25:01.528Z [ERROR]: !!! Build failed
+
+80
+
+2026-02-01T18:25:01.528Z [INFO]: Please read more about Amplify Hosting's support for SSR frameworks to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/amplify-ssr-framework-support.html. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+
+81
+
+2026-02-01T18:25:01.528Z [ERROR]: !!! Error: Command failed with exit code 1
+
+82
+
+2026-02-01T18:25:01.528Z [INFO]: # Starting environment caching...
+
+83
+
+2026-02-01T18:25:01.528Z [INFO]: # Environment caching completed
+
+84
 
